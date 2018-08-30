@@ -5,11 +5,13 @@
   "main": "server.js",
   "dependencies": {
     "body-parser": "^1.17.2",
-    "express": "^4.15.4",
     "mongoose": "^4.11.10",
-    "socket.io": "^2.0.3"
+    "twitter": "^1.7.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.1"
+  },
   "scripts": {
     "test": "Hello world",
     "start": "node server.js"

@@ -10,12 +10,13 @@
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
 		<link rel="stylesheet" type="text/css" href="app/style.css">
+		<link rel="shortcut icon" type="image/png" href="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1259px-Twitter_Bird.svg.png"/>
 	</head>
 	<body ng-app="twitStream">
 		<div class="container" ng-controller="twitCtrl">
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
-					<h3>Twitter Stream #Javascript</h3>
+					<h3>Twitter Stream #SEO</h3>
 					<!-- {{test}} -->
 					<div  ng-if='load'><i class=" loader fa fa-spinner fa-spin fa-3x fa-fw"></i>
 						<span class="sr-only">Loading...</span>
@@ -27,7 +28,7 @@
 								<a target="_blank" ng-href="https://twitter.com/{{n.user.screen_name}}">@{{n.user.name}}:</a><br>
 								{{n.text}}
 							</span>
-<!-- 							<span class="twitDate">{{n.created_at | sinceFilter}}</span> -->
+							<!-- <span class="twitDate">{{n.created_at | sinceFilter}}</span> -->
 						</li>
 						
 					</ul>

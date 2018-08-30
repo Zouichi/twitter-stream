@@ -1,6 +1,14 @@
+body {
+	background-image: url("http://3.bp.blogspot.com/-tZ7T2kr6gB0/U6mp2h2xwvI/AAAAAAAAA84/45sekaAKReM/s1600/76-930+BACK+N+BLACK.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
 .twitItem{
 	display: flex;
-	 justify-content: flex-start;
+	justify-content: flex-start;
+	background: transparent;
+	border: none;
+	color: #990055;
 }
 .avatar{
 	height: 50px;
