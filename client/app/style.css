@@ -6,9 +6,10 @@ body {
 .twitItem{
 	display: flex;
 	justify-content: flex-start;
-	background: transparent;
 	border: none;
-	color: #990055;
+	color: #fff;
+	background-color: rgba(0, 0, 0, 0.4);
+	border-radius: 8px;
 }
 .avatar{
 	height: 50px;
