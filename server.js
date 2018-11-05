@@ -27,7 +27,7 @@ io.sockets.on('connection', function (socket) {
     socket.emit('monsocket', { hello: "world" });
 });
 // You can also get the stream in a callback if you prefer. 
-client.stream('statuses/filter', {track: 'seo'}, function(stream) {
+client.stream('statuses/filter', {track: 'prestashop'}, function(stream) {
   stream.on('data', function(event) {
     console.log(event && event.text);
     io.sockets.emit('newTwit', event);
