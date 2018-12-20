@@ -6,13 +6,13 @@ var Twitter = require('twitter');
 
 
 var client = new Twitter({
-  consumer_key: 'BnCnYT8WwUzbJBVFIOEuw96Wa',
-  consumer_secret: 'MohDuyxuqKy0URCHfZIyuyHJgna1n19XlT1jpRsuCwcFKEXOjQ',
-  access_token_key: '905686238056906752-eMMp715HVOOS4j2LbDmrwOrNoEoWfrE',
-  access_token_secret: 'rJpDcvgVFcGliMllRa2iMQ4zoMbDRAnHVmysPr4GpKL0i'
+  consumer_key: 'your_key',
+  consumer_secret: 'your_secret',
+  access_token_key: 'your_token_key',
+  access_token_secret: 'your_token_secret'
 });
 
-// je déclare mes fichiers statiques
+// Static files
 app.use('/app', express.static('./client/app'));
 // app.use('/css', express.static('./client/css'));
 app.get('/', function(req, res) {
