@@ -1,6 +1,19 @@
 body {
-	background-image: url("http://3.bp.blogspot.com/-tZ7T2kr6gB0/U6mp2h2xwvI/AAAAAAAAA84/45sekaAKReM/s1600/76-930+BACK+N+BLACK.jpg");
+	/*background-image: url("https://media.giphy.com/media/80Cdy9EteIuOc/giphy.gif");*/
+	background-image: url("https://media.giphy.com/media/d4oHIl9I6tf0c/giphy.gif");
 	background-size: 100%;
+}
+
+/*iframe {
+ 	position: fixed;
+ 	top: 0;
+ 	left: 0;
+	width: 100%;
+    height: 100%;
+}*/
+
+h3 {
+	color: #fff;
 }
 .twitItem{
 	display: flex;
@@ -9,6 +22,7 @@ body {
 	color: #fff;
 	background-color: rgba(0, 0, 0, 0.4);
 	border-radius: 8px;
+	margin-bottom: 1vh;
 }
 .avatar{
 	height: 50px;
@@ -27,4 +41,5 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
+	color: #fff;
 }
