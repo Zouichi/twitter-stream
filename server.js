@@ -6,10 +6,10 @@ var Twitter = require('twitter');
 
 
 var client = new Twitter({
-  consumer_key: 'your_key',
-  consumer_secret: 'your_secret',
-  access_token_key: 'your_token_key',
-  access_token_secret: 'your_token_secret'
+  consumer_key: 'BnCnYT8WwUzbJBVFIOEuw96Wa',
+  consumer_secret: 'MohDuyxuqKy0URCHfZIyuyHJgna1n19XlT1jpRsuCwcFKEXOjQ',
+  access_token_key: '905686238056906752-eMMp715HVOOS4j2LbDmrwOrNoEoWfrE',
+  access_token_secret: 'rJpDcvgVFcGliMllRa2iMQ4zoMbDRAnHVmysPr4GpKL0i'
 });
 
 // Static files
@@ -23,7 +23,7 @@ server.listen(3000, function() {
             console.log('listening on 3000');
 });
 io.sockets.on('connection', function (socket) {
-    console.log("un client est connecté");
+    console.log("Show me your twitts !");
     socket.emit('monsocket', { hello: "world" });
 });
 // You can also get the stream in a callback if you prefer. 
